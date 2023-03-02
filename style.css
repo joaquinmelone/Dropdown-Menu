@@ -1,0 +1,73 @@
+/* GENERAL CSS PROPERTIES */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+
+    word-wrap: break-word;
+    background-color: rgb(34, 37, 38);
+}
+
+/* HEADER AND MENU LIST */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 15%;
+    width: 100%;
+
+    background-color: rgb(80, 16, 30);
+    color: white;
+    font-weight: bold;
+}
+
+.list-container {
+    display: flex;
+    width: 100%;
+}
+
+.menu-button, .thing-button, .contact-button {
+
+    width: 100%;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.dropdown-menu.visible {
+    display: flex;
+    font-size: 25px;
+}
+
+.menu-button {
+    border: 1px solid red;
+}
+
+/* GENERAL PROPERTIES FOR BUTTONS */
+
+button {
+    font-size: 30px;
+
+    border-radius: 5px;
+    cursor: pointer; 
+    border: none;   
+}
+
+button:hover {
+    background-color: antiquewhite;
+}
